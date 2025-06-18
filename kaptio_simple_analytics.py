@@ -205,7 +205,7 @@ class KaptioAnalytics:
                 Id,
                 KaptioTravel__Itinerary__r.Name,
                 KaptioTravel__Itinerary__r.KaptioTravel__No_of_days__c,
-                KaptioTravel__Itinerary__r.Group_Size__c,
+                KaptioTravel__Itinerary__r.KaptioTravel__Group_Size__c,
                 KaptioTravel__Itinerary__r.Status__c,
                 KaptioTravel__Itinerary__c
             FROM KaptioTravel__CalloutRequest__c 
@@ -233,7 +233,7 @@ class KaptioAnalytics:
                     itin = record['KaptioTravel__Itinerary__r']
                     itinerary_data['Itinerary_Name'] = itin.get('Name', 'Unknown')
                     itinerary_data['Days'] = itin.get('KaptioTravel__No_of_days__c', 0)
-                    itinerary_data['Pax'] = itin.get('Group_Size__c', 0)
+                    itinerary_data['Pax'] = itin.get('KaptioTravel__Group_Size__c', 0)
                     itinerary_data['Status'] = itin.get('Status__c', 'Unknown')
                     itinerary_data['Itinerary_Id'] = record.get('KaptioTravel__Itinerary__c')
                     
