@@ -183,6 +183,128 @@ class KaptioAnalytics:
             logger.error(f"Error getting filter options: {e}")
             return ["All Users"], ["All States"]
     
+    def get_detailed_itinerary_data(self, callout_df, limit=20):
+        """Get detailed itinerary characteristics for the longest calculating requests"""
+        if callout_df.empty:
+            return pd.DataFrame()
+        
+        try:
+            # Get the longest running calculations
+            longest_calculations = callout_df[callout_df['Duration_Minutes'].notna()].nlargest(limit, 'Duration_Minutes')
+            
+            if longest_calculations.empty:
+                return pd.DataFrame()
+            
+            # Extract callout request IDs
+            callout_ids = longest_calculations['Id'].tolist()
+            callout_ids_str = "'" + "','".join(callout_ids) + "'"
+            
+            # Query CalloutRequest with direct Itinerary relationship
+            query = f"""
+            SELECT 
+                Id,
+                KaptioTravel__Itinerary__r.Name,
+                KaptioTravel__Itinerary__r.KaptioTravel__No_of_days__c,
+                KaptioTravel__Itinerary__r.Group_Size__c,
+                KaptioTravel__Itinerary__r.Status__c,
+                KaptioTravel__Itinerary__c
+            FROM KaptioTravel__CalloutRequest__c 
+            WHERE Id IN ({callout_ids_str})
+            AND KaptioTravel__Itinerary__r.Name != null
+            LIMIT {limit}
+            """
+            
+            logger.info(f"Executing query: {query}")
+            result = self.sf.query_all(query)
+            
+            if result['totalSize'] == 0:
+                logger.warning("No itinerary data found, returning basic longest calculations")
+                return longest_calculations[['Id', 'Duration_Minutes', 'User_Name', 'CreatedDate', 'KaptioTravel__State__c']]
+            
+            # Process the results
+            itinerary_records = []
+            itinerary_ids = set()
+            
+            for record in result['records']:
+                itinerary_data = {}
+                itinerary_data['CalloutRequest_Id'] = record.get('Id')
+                
+                if record.get('KaptioTravel__Itinerary__r'):
+                    itin = record['KaptioTravel__Itinerary__r']
+                    itinerary_data['Itinerary_Name'] = itin.get('Name', 'Unknown')
+                    itinerary_data['Days'] = itin.get('KaptioTravel__No_of_days__c', 0)
+                    itinerary_data['Pax'] = itin.get('Group_Size__c', 0)
+                    itinerary_data['Status'] = itin.get('Status__c', 'Unknown')
+                    itinerary_data['Itinerary_Id'] = record.get('KaptioTravel__Itinerary__c')
+                    
+                    if record.get('KaptioTravel__Itinerary__c'):
+                        itinerary_ids.add(record.get('KaptioTravel__Itinerary__c'))
+                else:
+                    itinerary_data['Itinerary_Name'] = 'Unknown'
+                    itinerary_data['Days'] = 0
+                    itinerary_data['Pax'] = 0
+                    itinerary_data['Status'] = 'Unknown'
+                    itinerary_data['Itinerary_Id'] = None
+                
+                itinerary_records.append(itinerary_data)
+            
+            # Get departure counts for each itinerary
+            departure_counts = {}
+            if itinerary_ids:
+                itinerary_ids_str = "'" + "','".join(itinerary_ids) + "'"
+                departure_query = f"""
+                SELECT 
+                    KaptioTravel__Itinerary__c,
+                    COUNT(Id) DepartureCount
+                FROM KaptioTravel__TourDeparture__c 
+                WHERE KaptioTravel__Itinerary__c IN ({itinerary_ids_str})
+                GROUP BY KaptioTravel__Itinerary__c
+                """
+                
+                try:
+                    departure_result = self.sf.query_all(departure_query)
+                    for dep_record in departure_result['records']:
+                        departure_counts[dep_record['KaptioTravel__Itinerary__c']] = dep_record['DepartureCount']
+                except Exception as e:
+                    logger.warning(f"Could not get departure counts: {e}")
+            
+            # Add departure counts to itinerary records
+            for record in itinerary_records:
+                record['Departure_Count'] = departure_counts.get(record['Itinerary_Id'], 1)
+            
+            itinerary_df = pd.DataFrame(itinerary_records)
+            
+            # Merge with callout data
+            detailed_df = longest_calculations.merge(
+                itinerary_df, 
+                left_on='Id', 
+                right_on='CalloutRequest_Id', 
+                how='left'
+            )
+            
+            # Calculate complexity indicators
+            if not detailed_df.empty:
+                # Fill missing values
+                detailed_df['Days'] = detailed_df['Days'].fillna(0)
+                detailed_df['Pax'] = detailed_df['Pax'].fillna(0)
+                detailed_df['Departure_Count'] = detailed_df['Departure_Count'].fillna(1)
+                
+                # Complexity score (weighted calculation)
+                detailed_df['Complexity_Score'] = (
+                    detailed_df['Days'] * 0.3 +
+                    detailed_df['Pax'] * 0.2 +
+                    detailed_df['Departure_Count'] * 0.5
+                )
+            
+            logger.info(f"Successfully retrieved detailed data for {len(detailed_df)} longest calculations")
+            return detailed_df[['Id', 'Duration_Minutes', 'User_Name', 'CreatedDate', 'KaptioTravel__State__c', 
+                             'Itinerary_Name', 'Days', 'Pax', 'Departure_Count', 'Status', 'Complexity_Score']]
+            
+        except Exception as e:
+            logger.error(f"Error getting detailed itinerary data: {e}")
+            # Return basic longest calculations if detailed query fails
+            return longest_calculations[['Id', 'Duration_Minutes', 'User_Name', 'CreatedDate', 'KaptioTravel__State__c']]
+    
     def analyze_performance(self, df):
         """Analyze performance metrics"""
         if df.empty:
@@ -736,6 +858,119 @@ class KaptioAnalytics:
                 )
                 fig.update_xaxes(tickangle=45)
                 st.plotly_chart(fig, use_container_width=True)
+        
+        # Top 20 Longest Calculating Itineraries
+        st.subheader("🐌 Top 20 Longest Calculating Itineraries")
+        
+        with st.spinner("Loading detailed itinerary characteristics..."):
+            detailed_itinerary_df = self.get_detailed_itinerary_data(df, limit=20)
+        
+        if not detailed_itinerary_df.empty and len(detailed_itinerary_df) > 0:
+            # Display the detailed table
+            display_columns = {
+                'Duration_Minutes': 'Duration (min)',
+                'Itinerary_Name': 'Itinerary',
+                'Days': 'Days',
+                'Pax': 'Pax',
+                'Departure_Count': 'Departures',
+                'Complexity_Score': 'Complexity',
+                'User_Name': 'User',
+                'Status': 'Status',
+                'CreatedDate': 'Date'
+            }
+            
+            # Format the data for display
+            display_df = detailed_itinerary_df.copy()
+            
+            # Format duration with color coding
+            if 'Duration_Minutes' in display_df.columns:
+                display_df['Duration_Minutes'] = display_df['Duration_Minutes'].round(1)
+            if 'Complexity_Score' in display_df.columns:
+                display_df['Complexity_Score'] = display_df['Complexity_Score'].round(1)
+            if 'CreatedDate' in display_df.columns:
+                display_df['CreatedDate'] = pd.to_datetime(display_df['CreatedDate']).dt.strftime('%Y-%m-%d %H:%M')
+            
+            # Rename columns for display
+            display_df = display_df.rename(columns=display_columns)
+            
+            # Select only the columns we want to show
+            show_cols = [col for col in display_columns.values() if col in display_df.columns]
+            st.dataframe(
+                display_df[show_cols], 
+                use_container_width=True,
+                hide_index=True
+            )
+            
+            # Analysis insights
+            if len(detailed_itinerary_df) > 0:
+                col1, col2, col3 = st.columns(3)
+                
+                with col1:
+                    if 'Days' in detailed_itinerary_df.columns:
+                        avg_days = detailed_itinerary_df['Days'].mean()
+                        st.metric("Avg Days", f"{avg_days:.1f}")
+                    else:
+                        st.metric("Avg Days", "N/A")
+                
+                with col2:
+                    if 'Departure_Count' in detailed_itinerary_df.columns:
+                        avg_departures = detailed_itinerary_df['Departure_Count'].mean()
+                        st.metric("Avg Departures", f"{avg_departures:.1f}")
+                    else:
+                        st.metric("Avg Departures", "N/A")
+                
+                with col3:
+                    if 'Complexity_Score' in detailed_itinerary_df.columns:
+                        avg_complexity = detailed_itinerary_df['Complexity_Score'].mean()
+                        st.metric("Avg Complexity", f"{avg_complexity:.1f}")
+                    else:
+                        st.metric("Avg Complexity", "N/A")
+                
+                # Correlation analysis
+                required_cols = ['Duration_Minutes', 'Days', 'Departure_Count', 'Complexity_Score']
+                has_required_cols = all(col in detailed_itinerary_df.columns for col in required_cols)
+                
+                if len(detailed_itinerary_df) >= 5 and has_required_cols:  # Need minimum data points for correlation
+                    st.markdown("**📊 Complexity vs Duration Analysis:**")
+                    
+                    # Create scatter plot
+                    try:
+                        fig = px.scatter(
+                            detailed_itinerary_df,
+                            x='Complexity_Score',
+                            y='Duration_Minutes',
+                            size='Departure_Count',
+                            color='Days',
+                            hover_data=['Itinerary_Name', 'User_Name'] + (['Pax'] if 'Pax' in detailed_itinerary_df.columns else []),
+                            title="Calculation Duration vs Itinerary Complexity",
+                            labels={
+                                'Complexity_Score': 'Complexity Score',
+                                'Duration_Minutes': 'Duration (Minutes)',
+                                'Days': 'Trip Days'
+                            }
+                        )
+                        
+                        st.plotly_chart(fig, use_container_width=True)
+                        
+                        # Calculate correlation if we have numeric data
+                        correlation = detailed_itinerary_df[required_cols].corr()['Duration_Minutes']
+                        
+                        st.markdown("**🔗 Correlation with Calculation Time:**")
+                        st.markdown(f"- **Days**: {correlation['Days']:.3f}")
+                        st.markdown(f"- **Departure Options**: {correlation['Departure_Count']:.3f}")  
+                        st.markdown(f"- **Overall Complexity**: {correlation['Complexity_Score']:.3f}")
+                        
+                        st.info("📝 **Note**: Data retrieved from actual Salesforce Itinerary records linked to the longest calculating CalloutRequests.")
+                        
+                    except Exception as e:
+                        st.warning(f"Could not generate correlation analysis: {e}")
+                else:
+                    st.info("Need at least 5 records with complete data for correlation analysis")
+        else:
+            st.warning("⚠️ No detailed itinerary data available. This could be because:")
+            st.markdown("- No CalloutRequests are linked to Itinerary records")
+            st.markdown("- No long-running calculations found in the selected time period") 
+            st.markdown("- Insufficient permissions to access itinerary data")
         
         # Recommendations
         st.subheader("💡 Immediate Action Items")
