@@ -38,7 +38,7 @@ try:
     import base64
     PDF_AVAILABLE = True
 except ImportError as e:
-    logger.warning(f"PDF functionality not available: {e}")
+    # PDF functionality not available - this is optional
     PDF_AVAILABLE = False
 
 # Load environment variables
