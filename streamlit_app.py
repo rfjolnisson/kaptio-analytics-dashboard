@@ -59,10 +59,10 @@ class KaptioAnalytics:
         """Connect to Salesforce using environment variables"""
         try:
             self.sf = Salesforce(
-                username=os.getenv('SF_USERNAME'),
-                password=os.getenv('SF_PASSWORD'),
-                security_token=os.getenv('SF_SECURITY_TOKEN'),
-                domain=os.getenv('SF_DOMAIN', 'login')
+                username=st.secrets["DEFAULT"]["SF_USERNAME"],
+                password=st.secrets["DEFAULT"]["SF_PASSWORD"],
+                security_token=st.secrets["DEFAULT"]["SF_SECURITY_TOKEN"],
+                domain=st.secrets["DEFAULT"].get("SF_DOMAIN", "login")
             )
             logger.info("Connected to Salesforce successfully")
             return True
