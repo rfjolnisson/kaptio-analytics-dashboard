@@ -1,0 +1,14 @@
+{
+  "total_requests": 221,
+  "successful_requests": 199,
+  "failed_requests": 21,
+  "timeout_requests": 21,
+  "long_running_requests": 19,
+  "success_rate": 90.04524886877829,
+  "failure_rate": 9.502262443438914,
+  "timeout_rate": 9.502262443438914,
+  "avg_duration_minutes": 17.779393939393938,
+  "median_duration_minutes": 6.433333333333334,
+  "max_duration_minutes": 89.46666666666667,
+  "p95_duration_minutes": 72.86583333333331
+}

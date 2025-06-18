@@ -1,0 +1,222 @@
+Id,CreatedDate,KaptioTravel__State__c,KaptioTravel__InitializationDateTime__c,KaptioTravel__CompletionDateTime__c,KaptioTravel__ErrorDetails__c,User_Name,Duration_Minutes,IsTimeout,IsLongRunning,IsFailed,IsSuccessful
+a3iVk0000004wS1IAI,2025-06-17 22:32:40+00:00,Completed,2025-06-17 22:32:40+00:00,2025-06-17 23:05:36+00:00,,Saray Rodriguez,32.93333333333333,False,False,False,True
+a3iVk0000004wQPIAY,2025-06-17 20:57:03+00:00,Completed,2025-06-17 20:57:02+00:00,2025-06-17 20:57:49+00:00,,Soledad Moncayo,0.7833333333333333,False,False,False,True
+a3iVk0000004wOnIAI,2025-06-17 20:45:22+00:00,Completed,2025-06-17 20:45:21+00:00,2025-06-17 20:46:41+00:00,,Soledad Moncayo,1.3333333333333333,False,False,False,True
+a3iVk0000004w8fIAA,2025-06-17 20:02:37+00:00,Completed,2025-06-17 20:16:00+00:00,2025-06-17 20:21:26+00:00,,Soledad Moncayo,5.433333333333334,False,False,False,True
+a3iVk0000004vpJIAQ,2025-06-17 19:07:48+00:00,Completed,2025-06-17 19:07:48+00:00,2025-06-17 19:14:22+00:00,,Lucia Garcia,6.566666666666666,False,False,False,True
+a3iVk0000004vnhIAA,2025-06-17 17:58:52+00:00,Completed,2025-06-17 17:58:52+00:00,2025-06-17 17:59:16+00:00,,Lucia Garcia,0.4,False,False,False,True
+a3iVk0000004vm5IAA,2025-06-17 17:26:20+00:00,Completed,2025-06-17 17:26:20+00:00,2025-06-17 17:54:52+00:00,,Wycliffe Cocun,28.533333333333335,False,False,False,True
+a3iVk0000004vhFIAQ,2025-06-17 12:27:39+00:00,Completed,2025-06-17 12:27:39+00:00,2025-06-17 12:36:29+00:00,,Mark Walgemoet,8.833333333333334,False,False,False,True
+a3iVk0000004vfdIAA,2025-06-17 11:33:24+00:00,Completed,2025-06-17 12:42:39+00:00,2025-06-17 12:44:35+00:00,,Masha Smirnova,1.9333333333333333,False,False,False,True
+a3iVk0000004ve1IAA,2025-06-17 11:07:39+00:00,Completed,2025-06-17 11:07:39+00:00,2025-06-17 11:08:01+00:00,,Chandimali Keragala,0.36666666666666664,False,False,False,True
+a3iVk0000004vcPIAQ,2025-06-17 10:56:59+00:00,Completed,2025-06-17 10:56:59+00:00,2025-06-17 10:58:12+00:00,,Ilaksha Defontaine,1.2166666666666666,False,False,False,True
+a3iVk0000004vanIAA,2025-06-17 10:56:23+00:00,Completed,2025-06-17 10:56:23+00:00,2025-06-17 10:59:09+00:00,,Chandimali Keragala,2.7666666666666666,False,False,False,True
+a3iVk0000004vZBIAY,2025-06-17 10:28:42+00:00,Completed,2025-06-17 10:28:42+00:00,2025-06-17 10:38:34+00:00,,Ahinsa Alwis,9.866666666666667,False,False,False,True
+a3iVk0000004vXZIAY,2025-06-17 10:11:06+00:00,Completed,2025-06-17 10:11:06+00:00,2025-06-17 10:13:09+00:00,,Ahinsa Alwis,2.05,False,False,False,True
+a3iVk0000004vVxIAI,2025-06-17 09:54:56+00:00,Completed,2025-06-17 09:54:56+00:00,2025-06-17 09:56:22+00:00,,Ilaksha Defontaine,1.4333333333333333,False,False,False,True
+a3iVk0000004vULIAY,2025-06-17 09:28:53+00:00,Completed,2025-06-17 11:31:51+00:00,2025-06-17 11:33:12+00:00,,Mark Walgemoet,1.35,False,False,False,True
+a3iVk0000004vSjIAI,2025-06-17 07:46:50+00:00,Completed,2025-06-17 07:46:50+00:00,2025-06-17 07:49:19+00:00,,Senuri Fernando,2.4833333333333334,False,False,False,True
+a3iVk0000004vR7IAI,2025-06-17 07:32:38+00:00,Completed,2025-06-17 07:32:38+00:00,2025-06-17 07:35:24+00:00,,Senuri Fernando,2.7666666666666666,False,False,False,True
+a3iVk0000004vPVIAY,2025-06-17 07:32:25+00:00,Completed,2025-06-18 03:46:42+00:00,2025-06-18 04:56:46+00:00,,Fransisca Wulandari,70.06666666666666,False,True,False,True
+a3iVk0000004vKfIAI,2025-06-17 06:05:01+00:00,Completed,2025-06-17 06:05:01+00:00,2025-06-17 06:17:18+00:00,,Sathmee. Thiloka,12.283333333333333,False,False,False,True
+a3iVk0000004vJ3IAI,2025-06-17 06:02:15+00:00,Completed,2025-06-17 13:39:47+00:00,2025-06-17 13:44:08+00:00,,Wycliffe Cocun,4.35,False,False,False,True
+a3iVk0000004vHRIAY,2025-06-17 05:38:20+00:00,Completed,2025-06-17 05:38:20+00:00,2025-06-17 05:39:47+00:00,,Hem Dheep,1.45,False,False,False,True
+a3iVk0000004vFpIAI,2025-06-17 05:35:29+00:00,Completed,2025-06-17 05:35:29+00:00,2025-06-17 05:37:58+00:00,,Senuri Fernando,2.4833333333333334,False,False,False,True
+a3iVk0000004vEDIAY,2025-06-17 05:34:57+00:00,Completed,2025-06-17 05:34:57+00:00,2025-06-17 05:36:22+00:00,,Hem Dheep,1.4166666666666667,False,False,False,True
+a3iVk0000004vCbIAI,2025-06-17 04:43:41+00:00,Completed,2025-06-17 04:43:41+00:00,2025-06-17 04:45:43+00:00,,Hem Dheep,2.033333333333333,False,False,False,True
+a3iVk0000004vAzIAI,2025-06-17 02:46:23+00:00,Completed,2025-06-17 07:41:25+00:00,2025-06-17 07:41:54+00:00,,Idrissia Thestrup,0.48333333333333334,False,False,False,True
+a3iVk0000004ud7IAA,2025-06-16 19:37:44+00:00,Completed,2025-06-16 19:37:44+00:00,2025-06-16 19:44:37+00:00,,Lucia Garcia,6.883333333333334,False,False,False,True
+a3iVk0000004ubVIAQ,2025-06-16 18:39:33+00:00,Completed,2025-06-16 18:39:33+00:00,2025-06-16 18:45:10+00:00,,Lucia Garcia,5.616666666666666,False,False,False,True
+a3iVk0000004uZtIAI,2025-06-16 17:35:44+00:00,Completed,2025-06-16 17:35:44+00:00,2025-06-16 17:46:14+00:00,,Lucia Garcia,10.5,False,False,False,True
+a3iVk0000004uYHIAY,2025-06-16 16:14:25+00:00,Completed,2025-06-17 14:53:32+00:00,2025-06-17 14:57:07+00:00,,Tessa Rougny,3.5833333333333335,False,False,False,True
+a3iVk0000004uWfIAI,2025-06-16 11:55:48+00:00,Completed,2025-06-16 13:45:01+00:00,2025-06-16 13:54:51+00:00,,Vladimir Grubisic,9.833333333333334,False,False,False,True
+a3iVk0000004uRpIAI,2025-06-16 09:44:27+00:00,Completed,2025-06-16 13:45:30+00:00,2025-06-16 13:50:36+00:00,,Mark Walgemoet,5.1,False,False,False,True
+a3iVk0000004uObIAI,2025-06-16 08:56:30+00:00,Completed,2025-06-16 08:56:30+00:00,2025-06-16 09:14:49+00:00,,Core Dev,18.316666666666666,False,False,False,True
+a3iVk0000004uMzIAI,2025-06-16 07:59:38+00:00,Completed,2025-06-17 12:53:22+00:00,2025-06-17 13:26:22+00:00,,Caren Cherono,33.0,False,False,False,True
+a3iVk0000004uJlIAI,2025-06-16 06:18:21+00:00,Completed,2025-06-16 09:36:30+00:00,2025-06-16 09:37:36+00:00,,Gabriela Sarmanova,1.1,False,False,False,True
+a3iVk0000004tfRIAQ,2025-06-14 09:06:03+00:00,Error,2025-06-14 09:06:03+00:00,2025-06-14 10:00:03+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Phuong Nguyen,54.0,True,False,True,False
+a3iVk0000004tdpIAA,2025-06-13 21:08:40+00:00,Completed,2025-06-17 13:50:31+00:00,2025-06-17 14:25:09+00:00,,Wycliffe Cocun,34.63333333333333,False,False,False,True
+a3iVk0000004tcDIAQ,2025-06-13 20:20:10+00:00,Completed,2025-06-16 14:31:25+00:00,2025-06-16 14:33:29+00:00,,Core Dev,2.066666666666667,False,False,False,True
+a3iVk0000004tabIAA,2025-06-13 19:33:30+00:00,Completed,2025-06-17 15:39:45+00:00,2025-06-17 16:14:43+00:00,,Lucia Garcia,34.96666666666667,False,False,False,True
+a3iVk0000004tU9IAI,2025-06-13 14:59:12+00:00,Completed,2025-06-13 14:59:12+00:00,2025-06-13 14:59:16+00:00,,Kaptio Admin,0.06666666666666667,False,False,False,True
+a3iVk0000004tQvIAI,2025-06-13 14:42:00+00:00,Completed,2025-06-13 15:17:27+00:00,2025-06-13 15:18:36+00:00,,Eduardo Arribas,1.15,False,False,False,True
+a3iVk0000004tNhIAI,2025-06-13 14:10:12+00:00,Completed,2025-06-16 17:16:09+00:00,2025-06-16 17:34:08+00:00,,Salma Taoussi,17.983333333333334,False,False,False,True
+a3iVk0000004t7ZIAQ,2025-06-13 11:12:15+00:00,Completed,2025-06-13 11:12:15+00:00,2025-06-13 11:15:03+00:00,,Shamail Anwer,2.8,False,False,False,True
+a3iVk0000004t2jIAA,2025-06-13 09:01:36+00:00,Completed,2025-06-13 09:01:36+00:00,2025-06-13 09:03:29+00:00,,Shenuka Elisha,1.8833333333333333,False,False,False,True
+a3iVk0000004t17IAA,2025-06-13 08:35:48+00:00,Completed,2025-06-13 08:36:40+00:00,2025-06-13 08:36:58+00:00,,Angelika Zimmer,0.3,False,False,False,True
+a3iVk0000004szVIAQ,2025-06-13 07:39:21+00:00,Completed,2025-06-13 07:39:21+00:00,2025-06-13 07:39:54+00:00,,Anjalika Thomas,0.55,False,False,False,True
+a3iVk0000004sxtIAA,2025-06-13 07:02:49+00:00,Completed,2025-06-13 07:02:49+00:00,2025-06-13 07:11:08+00:00,,Anjalika Thomas,8.316666666666666,False,False,False,True
+a3iVk0000004swHIAQ,2025-06-13 06:48:32+00:00,Completed,2025-06-13 06:48:32+00:00,2025-06-13 06:49:33+00:00,,Nesandi Gunawardena,1.0166666666666666,False,False,False,True
+a3iVk0000004sufIAA,2025-06-13 06:34:01+00:00,Error,2025-06-13 06:34:01+00:00,2025-06-13 08:00:10+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Shenuka Elisha,86.15,True,True,True,False
+a3iVk0000004st3IAA,2025-06-13 05:26:28+00:00,Completed,2025-06-13 05:26:28+00:00,2025-06-13 05:29:34+00:00,,Nesandi Gunawardena,3.1,False,False,False,True
+a3iVk0000004srRIAQ,2025-06-13 04:52:41+00:00,Completed,2025-06-13 04:52:41+00:00,2025-06-13 05:10:20+00:00,,Dinesh George,17.65,False,False,False,True
+a3iVk0000004sppIAA,2025-06-13 04:43:01+00:00,Completed,2025-06-13 04:43:01+00:00,2025-06-13 04:43:33+00:00,,Anjalika Thomas,0.5333333333333333,False,False,False,True
+a3iVk0000004soDIAQ,2025-06-13 04:41:39+00:00,Completed,2025-06-13 04:44:55+00:00,2025-06-13 04:50:34+00:00,,Dhamsarani Uddeepa,5.65,False,False,False,True
+a3iVk0000004smbIAA,2025-06-13 04:27:52+00:00,Completed,2025-06-13 04:27:52+00:00,2025-06-13 04:28:40+00:00,,Dhamsarani Uddeepa,0.8,False,False,False,True
+a3iVk0000004skzIAA,2025-06-13 04:23:44+00:00,Completed,2025-06-13 04:23:44+00:00,2025-06-13 04:26:43+00:00,,Srinath Vasudevan,2.9833333333333334,False,False,False,True
+a3iVk0000004sjNIAQ,2025-06-12 21:55:42+00:00,Completed,2025-06-13 16:47:20+00:00,2025-06-13 16:53:30+00:00,,Soledad Moncayo,6.166666666666667,False,False,False,True
+a3iVk0000004s8HIAQ,2025-06-12 08:02:09+00:00,Completed,2025-06-16 10:41:29+00:00,2025-06-16 10:45:16+00:00,,Antonio Radicevic,3.783333333333333,False,False,False,True
+a3iVk0000004s6fIAA,2025-06-12 06:17:25+00:00,Completed,2025-06-12 06:17:25+00:00,2025-06-12 06:17:43+00:00,,Masha Smirnova,0.3,False,False,False,True
+a3iVk0000004s53IAA,2025-06-12 02:02:53+00:00,Completed,2025-06-12 03:04:52+00:00,2025-06-12 03:39:24+00:00,,Kieu Hanh Nguyen,34.53333333333333,False,False,False,True
+a3iVk0000004rXBIAY,2025-06-11 19:51:49+00:00,Completed,2025-06-17 05:35:23+00:00,2025-06-17 05:47:11+00:00,,Michelle Edwards,11.8,False,False,False,True
+a3iVk0000004rVZIAY,2025-06-11 14:01:35+00:00,Completed,2025-06-13 09:56:20+00:00,2025-06-13 09:59:52+00:00,,Tin Vodopija,3.533333333333333,False,False,False,True
+a3iVk0000004rTxIAI,2025-06-11 12:54:22+00:00,Completed,2025-06-11 12:54:22+00:00,2025-06-11 12:55:54+00:00,,Lakshi Patapilige,1.5333333333333334,False,False,False,True
+a3iVk0000004rSLIAY,2025-06-11 11:26:17+00:00,Completed,2025-06-12 02:25:30+00:00,2025-06-12 02:28:46+00:00,,Jub Yata,3.2666666666666666,False,False,False,True
+a3iVk0000004rP7IAI,2025-06-11 11:04:02+00:00,Completed,2025-06-11 11:04:02+00:00,2025-06-11 11:05:00+00:00,,Dulmi Sirimanne,0.9666666666666667,False,False,False,True
+a3iVk0000004rLtIAI,2025-06-11 10:41:49+00:00,Completed,2025-06-11 10:41:49+00:00,2025-06-11 10:44:10+00:00,,Shamail Anwer,2.35,False,False,False,True
+a3iVk0000004rIfIAI,2025-06-11 10:41:03+00:00,Completed,2025-06-11 10:41:03+00:00,2025-06-11 10:42:06+00:00,,Deon Martus,1.05,False,False,False,True
+a3iVk0000004rH3IAI,2025-06-11 10:36:37+00:00,Completed,2025-06-11 10:36:37+00:00,2025-06-11 10:37:40+00:00,,Shenuka Elisha,1.05,False,False,False,True
+a3iVk0000004rDpIAI,2025-06-11 10:27:23+00:00,Completed,2025-06-11 10:27:23+00:00,2025-06-11 10:27:43+00:00,,Nesandi Gunawardena,0.3333333333333333,False,False,False,True
+a3iVk0000004rCDIAY,2025-06-11 10:12:02+00:00,Completed,2025-06-11 10:12:02+00:00,2025-06-11 10:13:31+00:00,,Srinath Vasudevan,1.4833333333333334,False,False,False,True
+a3iVk0000004rAbIAI,2025-06-11 10:09:41+00:00,Completed,2025-06-11 10:09:41+00:00,2025-06-11 10:10:29+00:00,,Dinesh George,0.8,False,False,False,True
+a3iVk0000004r8zIAA,2025-06-11 10:07:59+00:00,Completed,2025-06-11 10:19:25+00:00,2025-06-11 10:49:03+00:00,,Movini Dissanayake,29.633333333333333,False,False,False,True
+a3iVk0000004r7NIAQ,2025-06-11 10:04:27+00:00,Completed,2025-06-11 10:04:27+00:00,2025-06-11 10:09:40+00:00,,Anjalika Thomas,5.216666666666667,False,False,False,True
+a3iVk0000004r5lIAA,2025-06-11 08:15:48+00:00,Completed,2025-06-16 11:10:16+00:00,2025-06-16 11:39:10+00:00,,Mark Walgemoet,28.9,False,False,False,True
+a3iVk0000004r49IAA,2025-06-11 07:22:07+00:00,Completed,2025-06-17 07:30:02+00:00,2025-06-17 07:32:58+00:00,,Michelle Edwards,2.933333333333333,False,False,False,True
+a3iVk0000004r2XIAQ,2025-06-11 06:46:12+00:00,Error,2025-06-11 06:46:12+00:00,2025-06-11 08:00:00+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Pol Suner,73.8,True,True,True,False
+a3iVk0000004r0vIAA,2025-06-11 06:15:43+00:00,Completed,2025-06-11 06:15:43+00:00,2025-06-11 06:15:49+00:00,,Lakshi Patapilige,0.1,False,False,False,True
+a3iVk0000004qzJIAQ,2025-06-11 05:29:16+00:00,Completed,2025-06-17 12:06:25+00:00,2025-06-17 12:08:17+00:00,,Gabriela Sarmanova,1.8666666666666667,False,False,False,True
+a3iVk0000004qxhIAA,2025-06-11 03:28:22+00:00,Completed,2025-06-12 04:01:32+00:00,2025-06-12 04:41:23+00:00,,Jub Yata,39.85,False,False,False,True
+a3iVk0000004qPpIAI,2025-06-10 13:40:05+00:00,Completed,2025-06-16 09:59:47+00:00,2025-06-16 10:02:25+00:00,,Vladimir Grubisic,2.6333333333333333,False,False,False,True
+a3iVk0000004qODIAY,2025-06-10 11:06:56+00:00,Completed,2025-06-16 10:33:47+00:00,2025-06-16 10:41:25+00:00,,Mohini Mitra,7.633333333333334,False,False,False,True
+a3iVk0000004qMbIAI,2025-06-10 08:50:24+00:00,Completed,2025-06-16 09:33:11+00:00,2025-06-16 09:34:04+00:00,,Gabriela Sarmanova,0.8833333333333333,False,False,False,True
+a3iVk0000004q01IAA,2025-06-10 07:37:45+00:00,Completed,2025-06-16 12:25:59+00:00,2025-06-16 12:26:40+00:00,,Duje Dropuljic,0.6833333333333333,False,False,False,True
+a3iVk0000004pyPIAQ,2025-06-10 07:24:45+00:00,Completed,2025-06-16 06:38:53+00:00,2025-06-16 06:40:56+00:00,,Salina Maharjan,2.05,False,False,False,True
+a3iVk0000004pwnIAA,2025-06-10 07:04:29+00:00,Completed,2025-06-17 03:45:59+00:00,2025-06-17 03:46:15+00:00,,Fransisca Wulandari,0.26666666666666666,False,False,False,True
+a3iVk0000004pvBIAQ,2025-06-10 05:51:31+00:00,Completed,2025-06-17 10:01:34+00:00,2025-06-17 10:38:52+00:00,,Meenakshi Dushat,37.3,False,False,False,True
+a3iVk0000004ptZIAQ,2025-06-10 05:04:19+00:00,Completed,2025-06-12 09:13:45+00:00,2025-06-12 09:36:02+00:00,,Makara Khon,22.283333333333335,False,False,False,True
+a3iVk0000004prxIAA,2025-06-10 04:38:41+00:00,Error,2025-06-10 04:38:41+00:00,2025-06-10 06:00:01+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Makara Khon,81.33333333333333,True,True,True,False
+a3iVk0000004pqLIAQ,2025-06-10 00:07:02+00:00,Completed,2025-06-10 00:07:02+00:00,2025-06-10 00:08:21+00:00,,C�sar D�vila,1.3166666666666667,False,False,False,True
+a3iVk0000004pn7IAA,2025-06-09 20:58:25+00:00,Completed,2025-06-09 20:58:25+00:00,2025-06-09 21:04:07+00:00,,Juan Felipe Villamil,5.7,False,False,False,True
+a3iVk0000004pGrIAI,2025-06-09 14:24:26+00:00,Completed,2025-06-17 06:52:10+00:00,2025-06-17 07:22:29+00:00,,Meenakshi Dushat,30.316666666666666,False,False,False,True
+a3iVk0000004pFFIAY,2025-06-09 14:18:37+00:00,Completed,2025-06-17 12:51:28+00:00,2025-06-17 13:17:51+00:00,,Vladimir Grubisic,26.383333333333333,False,False,False,True
+a3iVk0000004pDdIAI,2025-06-09 12:55:22+00:00,Completed,2025-06-13 07:36:29+00:00,2025-06-13 07:38:52+00:00,,Tin Vodopija,2.3833333333333333,False,False,False,True
+a3iVk0000004p7BIAQ,2025-06-09 06:20:15+00:00,Error,2025-06-16 06:16:35+00:00,2025-06-16 07:00:03+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Caren Cherono,43.46666666666667,True,False,True,False
+a3iVk0000004p5ZIAQ,2025-06-09 06:10:20+00:00,Error,2025-06-09 06:10:20+00:00,2025-06-09 07:00:00+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Wycliffe Cocun,49.666666666666664,True,False,True,False
+a3iVk0000004oXhIAI,2025-06-07 09:00:57+00:00,Completed,2025-06-15 12:23:17+00:00,2025-06-15 12:28:14+00:00,,Salina Maharjan,4.95,False,False,False,True
+a3iVk0000004oW5IAI,2025-06-06 20:31:42+00:00,Completed,2025-06-09 20:52:56+00:00,2025-06-09 20:53:57+00:00,,C�sar D�vila,1.0166666666666666,False,False,False,True
+a3iVk0000004oUTIAY,2025-06-06 16:22:04+00:00,Completed,2025-06-06 16:22:04+00:00,2025-06-06 16:33:37+00:00,,C�sar D�vila,11.55,False,False,False,True
+a3iVk0000004oSrIAI,2025-06-06 15:18:12+00:00,Completed,2025-06-09 11:20:44+00:00,2025-06-09 11:23:00+00:00,,Vladimir Grubisic,2.2666666666666666,False,False,False,True
+a3iVk0000004oRFIAY,2025-06-06 15:09:42+00:00,Completed,2025-06-10 14:17:33+00:00,2025-06-10 14:19:30+00:00,,Vladimir Grubisic,1.95,False,False,False,True
+a3iVk0000004oPdIAI,2025-06-06 14:26:32+00:00,Completed,2025-06-06 14:26:32+00:00,2025-06-06 14:41:22+00:00,,Lucia Garcia,14.833333333333334,False,False,False,True
+a3iVk0000004oO1IAI,2025-06-06 13:29:17+00:00,Completed,2025-06-12 15:01:02+00:00,2025-06-12 15:15:26+00:00,,Eduardo Arribas,14.4,False,False,False,True
+a3iVk0000004oMPIAY,2025-06-06 13:23:09+00:00,Completed,2025-06-06 13:39:09+00:00,2025-06-06 13:44:16+00:00,,Phuong Nguyen,5.116666666666666,False,False,False,True
+a3iVk0000004oKnIAI,2025-06-06 12:46:46+00:00,Completed,2025-06-10 13:48:19+00:00,2025-06-10 13:49:34+00:00,,Antonio Radicevic,1.25,False,False,False,True
+a3iVk0000004oJBIAY,2025-06-06 08:00:09+00:00,Completed,2025-06-06 08:00:08+00:00,2025-06-06 08:01:54+00:00,,Salina Maharjan,1.7666666666666666,False,False,False,True
+a3iVk0000004oHZIAY,2025-06-06 05:40:29+00:00,Completed,2025-06-13 03:04:11+00:00,2025-06-13 03:07:27+00:00,,Ping Xia,3.2666666666666666,False,False,False,True
+a3iVk0000004oFxIAI,2025-06-06 04:23:03+00:00,Completed,2025-06-11 10:11:39+00:00,2025-06-11 10:12:11+00:00,,Dhamsarani Uddeepa,0.5333333333333333,False,False,False,True
+a3iVk0000004oELIAY,2025-06-06 03:34:29+00:00,Completed,2025-06-06 11:11:23+00:00,2025-06-06 11:18:55+00:00,,Phuong Nguyen,7.533333333333333,False,False,False,True
+a3iVk0000004nrlIAA,2025-06-05 20:44:16+00:00,Completed,2025-06-05 20:44:16+00:00,2025-06-05 21:04:30+00:00,,Cindy Ramirez,20.233333333333334,False,False,False,True
+a3iVk0000004noXIAQ,2025-06-05 20:30:43+00:00,Completed,2025-06-12 20:16:33+00:00,2025-06-12 20:19:06+00:00,,Soledad Moncayo,2.55,False,False,False,True
+a3iVk0000004nWnIAI,2025-06-05 16:10:58+00:00,Completed,2025-06-05 16:10:58+00:00,2025-06-05 16:11:03+00:00,,Angelika Zimmer,0.08333333333333333,False,False,False,True
+a3iVk0000004nVBIAY,2025-06-05 12:06:54+00:00,Completed,2025-06-05 12:06:54+00:00,2025-06-05 12:12:38+00:00,,Lakshi Patapilige,5.733333333333333,False,False,False,True
+a3iVk0000004nTZIAY,2025-06-05 11:39:53+00:00,Completed,2025-06-11 11:59:00+00:00,2025-06-11 12:04:59+00:00,,Vladimir Grubisic,5.983333333333333,False,False,False,True
+a3iVk0000004nRxIAI,2025-06-05 11:29:49+00:00,Completed,2025-06-09 08:55:55+00:00,2025-06-09 09:03:26+00:00,,Vladimir Grubisic,7.516666666666667,False,False,False,True
+a3iVk0000004nQLIAY,2025-06-05 09:26:16+00:00,Completed,2025-06-13 09:38:18+00:00,2025-06-13 09:44:56+00:00,,Duje Dropuljic,6.633333333333334,False,False,False,True
+a3iVk0000004nLVIAY,2025-06-05 04:05:30+00:00,Completed,2025-06-17 11:06:13+00:00,2025-06-17 11:19:59+00:00,,Pramali Fernando,13.766666666666667,False,False,False,True
+a3iVk0000004nJtIAI,2025-06-05 01:15:56+00:00,Completed,2025-06-16 17:12:38+00:00,2025-06-16 17:18:38+00:00,,Saray Rodriguez,6.0,False,False,False,True
+a3iVk0000004nIHIAY,2025-06-05 01:10:08+00:00,Error,2025-06-05 01:10:08+00:00,2025-06-05 02:00:00+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Michelle Edwards,49.86666666666667,True,False,True,False
+a3iVk0000004nGfIAI,2025-06-04 21:48:38+00:00,Completed,2025-06-16 21:17:10+00:00,2025-06-16 22:04:56+00:00,,Soledad Moncayo,47.766666666666666,False,False,False,True
+a3iVk0000004nDRIAY,2025-06-04 20:43:05+00:00,Completed,2025-06-12 02:19:39+00:00,2025-06-12 02:42:25+00:00,,Michelle Edwards,22.766666666666666,False,False,False,True
+a3iVk0000004mhBIAQ,2025-06-04 13:07:43+00:00,Completed,2025-06-12 12:41:46+00:00,2025-06-12 12:45:21+00:00,,Sylvia Athanasopoulou,3.5833333333333335,False,False,False,True
+a3iVk0000004mfZIAQ,2025-06-04 09:15:08+00:00,Completed,2025-06-17 12:25:39+00:00,2025-06-17 12:28:14+00:00,,Meenakshi Dushat,2.5833333333333335,False,False,False,True
+a3iVk0000004mdxIAA,2025-06-04 08:12:36+00:00,Error,2025-06-16 03:41:01+00:00,2025-06-16 05:00:02+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Amy Sun,79.01666666666667,True,True,True,False
+a3iVk0000004mcLIAQ,2025-06-04 08:02:22+00:00,Completed,2025-06-04 08:02:22+00:00,2025-06-04 08:02:58+00:00,,Ping Xia,0.6,False,False,False,True
+a3iVk0000004majIAA,2025-06-04 07:51:49+00:00,Completed,2025-06-17 02:43:16+00:00,2025-06-17 02:44:40+00:00,,Michelle Edwards,1.4,False,False,False,True
+a3iVk0000004mZ7IAI,2025-06-04 07:07:28+00:00,Completed,2025-06-17 11:50:23+00:00,2025-06-17 12:28:31+00:00,,Meenakshi Dushat,38.13333333333333,False,False,False,True
+a3iVk0000004mXVIAY,2025-06-04 04:33:40+00:00,In progress,2025-06-18 05:01:14+00:00,,,Meenakshi Dushat,,False,False,False,False
+a3iVk0000004lzdIAA,2025-06-03 15:32:41+00:00,Completed,2025-06-17 14:49:51+00:00,2025-06-17 15:16:29+00:00,,Ekrem Seyhanli,26.633333333333333,False,False,False,True
+a3iVk0000004ly1IAA,2025-06-03 14:12:30+00:00,Completed,2025-06-11 15:39:56+00:00,2025-06-11 15:50:29+00:00,,Mark Walgemoet,10.55,False,False,False,True
+a3iVk0000004lwPIAQ,2025-06-03 12:31:40+00:00,Error,2025-06-05 09:36:35+00:00,2025-06-05 11:00:02+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Mohini Mitra,83.45,True,True,True,False
+a3iVk0000004lunIAA,2025-06-03 12:11:28+00:00,Completed,2025-06-16 16:28:03+00:00,2025-06-16 16:34:21+00:00,,Mark Walgemoet,6.3,False,False,False,True
+a3iVk0000004ltBIAQ,2025-06-03 10:51:04+00:00,Completed,2025-06-11 13:52:42+00:00,2025-06-11 14:10:24+00:00,,Tessa Rougny,17.7,False,False,False,True
+a3iVk0000004lrZIAQ,2025-06-03 10:37:01+00:00,Completed,2025-06-10 13:02:36+00:00,2025-06-10 13:04:19+00:00,,Mark Walgemoet,1.7166666666666666,False,False,False,True
+a3iVk0000004lpxIAA,2025-06-03 10:26:20+00:00,Completed,2025-06-16 08:14:49+00:00,2025-06-16 08:20:20+00:00,,Mohini Mitra,5.516666666666667,False,False,False,True
+a3iVk0000004ljVIAQ,2025-06-03 06:46:37+00:00,Completed,2025-06-17 06:33:52+00:00,2025-06-17 06:36:43+00:00,,Fransisca Wulandari,2.85,False,False,False,True
+a3iVk0000004lhtIAA,2025-06-03 06:38:19+00:00,Completed,2025-06-09 06:52:05+00:00,2025-06-09 08:03:03+00:00,,Michelle Edwards,70.96666666666667,False,True,False,True
+a3iVk0000004lgHIAQ,2025-06-03 03:13:12+00:00,Completed,2025-06-17 03:48:32+00:00,2025-06-17 03:59:55+00:00,,Fransisca Wulandari,11.383333333333333,False,False,False,True
+a3iVk0000004lefIAA,2025-06-02 23:21:51+00:00,Completed,2025-06-16 22:18:49+00:00,2025-06-16 22:31:00+00:00,,Cindy Ramirez,12.183333333333334,False,False,False,True
+a3iVk0000004ld3IAA,2025-06-02 22:15:10+00:00,Completed,2025-06-12 20:35:05+00:00,2025-06-12 20:46:22+00:00,,Angela Pizarro,11.283333333333333,False,False,False,True
+a3iVk0000004lbRIAQ,2025-06-02 21:38:41+00:00,Completed,2025-06-13 21:36:52+00:00,2025-06-13 21:42:37+00:00,,C�sar D�vila,5.75,False,False,False,True
+a3iVk0000004l3ZIAQ,2025-06-02 19:02:54+00:00,Completed,2025-06-16 18:01:11+00:00,2025-06-16 18:13:08+00:00,,Lucia Garcia,11.95,False,False,False,True
+a3iVk0000004l1xIAA,2025-06-02 18:41:46+00:00,Completed,2025-06-11 22:30:21+00:00,2025-06-11 23:54:29+00:00,,Lucia Garcia,84.13333333333334,False,True,False,True
+a3iVk0000004l0LIAQ,2025-06-02 18:15:16+00:00,Completed,2025-06-16 17:00:32+00:00,2025-06-16 17:58:26+00:00,,Salma Taoussi,57.9,False,False,False,True
+a3iVk0000004kyjIAA,2025-06-02 18:05:23+00:00,Completed,2025-06-12 21:29:20+00:00,2025-06-12 21:31:04+00:00,,Soledad Moncayo,1.7333333333333334,False,False,False,True
+a3iVk0000004kx7IAA,2025-06-02 17:57:06+00:00,Completed,2025-06-17 10:47:18+00:00,2025-06-17 11:28:49+00:00,,Salma Taoussi,41.516666666666666,False,False,False,True
+a3iVk0000004kvVIAQ,2025-06-02 17:39:48+00:00,Completed,2025-06-13 10:41:23+00:00,2025-06-13 10:45:03+00:00,,Salma Taoussi,3.6666666666666665,False,False,False,True
+a3iVk0000004kttIAA,2025-06-02 17:27:49+00:00,Completed,2025-06-16 18:57:47+00:00,2025-06-16 19:05:35+00:00,,Salma Taoussi,7.8,False,False,False,True
+a3iVk0000004ksHIAQ,2025-06-02 16:50:26+00:00,Completed,2025-06-16 10:36:00+00:00,2025-06-16 10:45:55+00:00,,Salma Taoussi,9.916666666666666,False,False,False,True
+a3iVk0000004kqfIAA,2025-06-02 15:57:16+00:00,Completed,2025-06-03 16:49:29+00:00,2025-06-03 16:51:21+00:00,,Salma Taoussi,1.8666666666666667,False,False,False,True
+a3iVk0000004kp3IAA,2025-06-02 15:54:38+00:00,Completed,2025-06-16 10:04:49+00:00,2025-06-16 10:13:18+00:00,,Salma Taoussi,8.483333333333333,False,False,False,True
+a3iVk0000004knRIAQ,2025-06-02 11:41:54+00:00,Completed,2025-06-12 08:12:36+00:00,2025-06-12 08:19:43+00:00,,Tessa Rougny,7.116666666666666,False,False,False,True
+a3iVk0000004klpIAA,2025-06-02 04:37:33+00:00,Completed,2025-06-06 12:08:20+00:00,2025-06-06 13:06:04+00:00,,Phuong Nguyen,57.733333333333334,False,False,False,True
+a3iVk0000004fFtIAI,2025-05-31 14:06:03+00:00,Completed,2025-06-16 13:29:38+00:00,2025-06-16 13:45:45+00:00,,Salma Taoussi,16.116666666666667,False,False,False,True
+a3iVk0000004fEHIAY,2025-05-30 23:14:18+00:00,Completed,2025-06-10 20:57:35+00:00,2025-06-10 21:04:24+00:00,,Juan Felipe Villamil,6.816666666666666,False,False,False,True
+a3iVk0000004fCfIAI,2025-05-30 22:44:24+00:00,Completed,2025-06-16 20:38:03+00:00,2025-06-16 20:44:37+00:00,,Juan Felipe Villamil,6.566666666666666,False,False,False,True
+a3iVk0000004fB3IAI,2025-05-30 17:53:30+00:00,Completed,2025-06-13 20:42:59+00:00,2025-06-13 20:46:57+00:00,,C�sar D�vila,3.966666666666667,False,False,False,True
+a3iVk0000004f9RIAQ,2025-05-30 17:23:30+00:00,Completed,2025-06-06 17:52:18+00:00,2025-06-06 17:55:51+00:00,,C�sar D�vila,3.55,False,False,False,True
+a3iVk0000004f7pIAA,2025-05-30 17:11:04+00:00,Completed,2025-06-13 16:30:54+00:00,2025-06-13 16:39:06+00:00,,Lucia Garcia,8.2,False,False,False,True
+a3iVk0000004f1NIAQ,2025-05-30 10:53:18+00:00,Completed,2025-06-04 13:44:41+00:00,2025-06-04 13:48:06+00:00,,Mark Walgemoet,3.4166666666666665,False,False,False,True
+a3iVk0000004ezlIAA,2025-05-30 10:48:29+00:00,Completed,2025-06-16 05:55:09+00:00,2025-06-16 05:59:14+00:00,,Salina Maharjan,4.083333333333333,False,False,False,True
+a3iVk0000004ey9IAA,2025-05-30 07:12:00+00:00,Completed,2025-06-18 04:12:39+00:00,2025-06-18 04:17:56+00:00,,Kieu Hanh Nguyen,5.283333333333333,False,False,False,True
+a3iVk0000004ewXIAQ,2025-05-30 06:44:30+00:00,Completed,2025-06-13 10:57:07+00:00,2025-06-13 11:24:03+00:00,,Pramali Fernando,26.933333333333334,False,False,False,True
+a3iVk0000004euvIAA,2025-05-30 03:47:08+00:00,Error,2025-06-15 15:20:03+00:00,2025-06-15 16:00:03+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Salina Maharjan,40.0,True,False,True,False
+a3iVk0000004etJIAQ,2025-05-30 03:07:45+00:00,Completed,2025-06-17 06:52:21+00:00,2025-06-17 06:54:38+00:00,,Fransisca Wulandari,2.283333333333333,False,False,False,True
+a3iVk0000004ebZIAQ,2025-05-29 20:41:56+00:00,Completed,2025-06-17 16:04:37+00:00,2025-06-17 16:48:40+00:00,,Saray Rodriguez,44.05,False,False,False,True
+a3iVk0000004eJpIAI,2025-05-29 16:42:26+00:00,Completed,2025-06-16 20:39:25+00:00,2025-06-16 20:40:39+00:00,,Juan Felipe Villamil,1.2333333333333334,False,False,False,True
+a3iVk0000004eIDIAY,2025-05-29 16:18:26+00:00,Completed,2025-06-09 10:39:52+00:00,2025-06-09 10:45:26+00:00,,Evgeniya Tumanova,5.566666666666666,False,False,False,True
+a3iVk0000004eGbIAI,2025-05-29 15:36:06+00:00,Completed,2025-06-12 08:12:24+00:00,2025-06-12 08:15:59+00:00,,Tessa Rougny,3.5833333333333335,False,False,False,True
+a3iVk0000004eDNIAY,2025-05-29 11:10:42+00:00,Completed,2025-06-18 03:19:53+00:00,2025-06-18 03:48:06+00:00,,Kieu Hanh Nguyen,28.216666666666665,False,False,False,True
+a3iVk0000004eBlIAI,2025-05-29 05:26:16+00:00,Completed,2025-06-18 04:42:04+00:00,2025-06-18 04:51:48+00:00,,Jub Yata,9.733333333333333,False,False,False,True
+a3iVk0000004eA9IAI,2025-05-28 21:57:44+00:00,Completed,2025-06-12 18:04:44+00:00,2025-06-12 18:14:28+00:00,,Soledad Moncayo,9.733333333333333,False,False,False,True
+a3iVk0000004dcHIAQ,2025-05-28 16:18:57+00:00,Completed,2025-06-16 22:17:45+00:00,2025-06-16 23:07:39+00:00,,Cindy Ramirez,49.9,False,False,False,True
+a3iVk0000004dafIAA,2025-05-28 13:41:14+00:00,Completed,2025-06-17 14:06:56+00:00,2025-06-17 14:14:40+00:00,,Michelle Edwards,7.733333333333333,False,False,False,True
+a3iVk0000004dXRIAY,2025-05-28 13:10:39+00:00,Completed,2025-05-28 14:11:02+00:00,2025-05-28 14:11:19+00:00,,Amanda van Loggerenberg,0.2833333333333333,False,False,False,True
+a3iVk0000004dSbIAI,2025-05-28 12:51:22+00:00,Completed,2025-05-28 14:01:20+00:00,2025-05-28 14:01:49+00:00,,Amanda van Loggerenberg,0.48333333333333334,False,False,False,True
+a3iVk0000004dPNIAY,2025-05-28 12:00:48+00:00,Completed,2025-06-17 13:47:12+00:00,2025-06-17 14:41:17+00:00,,Ekrem Seyhanli,54.083333333333336,False,False,False,True
+a3iVk0000004dKXIAY,2025-05-28 09:17:17+00:00,Completed,2025-05-30 10:25:06+00:00,2025-05-30 10:25:37+00:00,,Fransisca Wulandari,0.5166666666666667,False,False,False,True
+a3iVk0000004dIvIAI,2025-05-28 09:11:18+00:00,Completed,2025-06-10 09:46:45+00:00,2025-06-10 09:50:12+00:00,,Fransisca Wulandari,3.45,False,False,False,True
+a3iVk0000004d7dIAA,2025-05-28 05:57:34+00:00,Error,2025-06-13 04:22:44+00:00,2025-06-13 05:00:01+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Pramali Fernando,37.28333333333333,True,False,True,False
+a3iVk0000004cQ5IAI,2025-05-27 11:18:57+00:00,Completed,2025-06-17 14:49:58+00:00,2025-06-17 15:50:33+00:00,,Ekrem Seyhanli,60.583333333333336,False,True,False,True
+a3iVk0000004cDCIAY,2025-05-27 08:59:11+00:00,Completed,2025-06-16 11:30:18+00:00,2025-06-16 12:43:07+00:00,,Rachid Ait Tacant,72.81666666666666,False,True,False,True
+a3iVk0000004cGPIAY,2025-05-27 08:55:16+00:00,Completed,2025-06-16 10:03:28+00:00,2025-06-16 10:15:12+00:00,,Salma Taoussi,11.733333333333333,False,False,False,True
+a3iVk0000004cEnIAI,2025-05-27 08:54:38+00:00,Completed,2025-06-16 15:02:09+00:00,2025-06-16 15:13:49+00:00,,Rachid Ait Tacant,11.666666666666666,False,False,False,True
+a3iVk0000004cDBIAY,2025-05-27 08:53:38+00:00,Completed,2025-06-16 15:12:43+00:00,2025-06-16 16:11:30+00:00,,Rachid Ait Tacant,58.78333333333333,False,False,False,True
+a3iVk0000004cBZIAY,2025-05-27 08:52:31+00:00,Completed,2025-06-13 16:13:53+00:00,2025-06-13 17:38:24+00:00,,Kaptio Admin,84.51666666666667,False,True,False,True
+a3iVk0000004c9xIAA,2025-05-27 08:49:32+00:00,Completed,2025-06-17 12:27:25+00:00,2025-06-17 13:48:24+00:00,,Salma Taoussi,80.98333333333333,False,True,False,True
+a3iVk0000004c8LIAQ,2025-05-27 08:44:48+00:00,Completed,2025-06-17 17:13:58+00:00,2025-06-17 17:19:36+00:00,,Salma Taoussi,5.633333333333334,False,False,False,True
+a3iVk0000004c6jIAA,2025-05-27 08:41:22+00:00,Completed,2025-06-12 06:18:21+00:00,2025-06-12 06:31:20+00:00,,Michelle Edwards,12.983333333333333,False,False,False,True
+a3iVk0000004c57IAA,2025-05-27 08:23:20+00:00,Completed,2025-06-11 08:38:17+00:00,2025-06-11 09:27:56+00:00,,Jub Yata,49.65,False,False,False,True
+a3iVk0000004byfIAA,2025-05-27 05:38:43+00:00,Completed,2025-06-09 11:05:13+00:00,2025-06-09 11:15:53+00:00,,Rosalind Kantis,10.666666666666666,False,False,False,True
+a3iVk0000004bx3IAA,2025-05-27 04:58:26+00:00,Error,2025-05-27 04:58:26+00:00,2025-05-27 06:00:13+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Michelle Edwards,61.78333333333333,True,True,True,False
+a3iVk0000004bvRIAQ,2025-05-27 03:28:39+00:00,Completed,2025-06-16 11:43:14+00:00,2025-06-16 12:15:18+00:00,,Mostafa Hussein,32.06666666666667,False,False,False,True
+a3iVk0000004btpIAA,2025-05-27 03:28:33+00:00,Error,2025-05-29 01:22:35+00:00,2025-05-29 02:00:03+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Michelle Edwards,37.46666666666667,True,False,True,False
+a3iVk0000004bsDIAQ,2025-05-27 03:28:19+00:00,Error,2025-05-29 00:59:45+00:00,2025-05-29 02:00:03+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Michelle Edwards,60.3,True,True,True,False
+a3iVk0000004bqbIAA,2025-05-26 23:30:33+00:00,Error,2025-05-26 23:30:33+00:00,2025-05-27 01:00:01+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Joshua Ong,89.46666666666667,True,True,True,False
+a3iVk0000004bnNIAQ,2025-05-26 21:20:57+00:00,Completed,2025-06-13 23:35:47+00:00,2025-06-13 23:43:34+00:00,,Lucia Garcia,7.783333333333333,False,False,False,True
+a3iVk0000004bU2IAI,2025-05-26 21:05:21+00:00,Completed,2025-06-12 13:34:19+00:00,2025-06-12 13:37:21+00:00,,Soledad Moncayo,3.033333333333333,False,False,False,True
+a3iVk0000004bQnIAI,2025-05-26 20:06:01+00:00,Completed,2025-06-09 19:28:14+00:00,2025-06-09 19:29:09+00:00,,Soledad Moncayo,0.9166666666666666,False,False,False,True
+a3iVk0000004bNZIAY,2025-05-26 19:26:58+00:00,Completed,2025-06-12 18:49:25+00:00,2025-06-12 18:56:16+00:00,,Soledad Moncayo,6.85,False,False,False,True
+a3iVk0000004bLxIAI,2025-05-26 19:11:38+00:00,Completed,2025-06-09 19:03:01+00:00,2025-06-09 19:06:02+00:00,,Soledad Moncayo,3.0166666666666666,False,False,False,True
+a3iVk0000004b5pIAA,2025-05-26 15:54:12+00:00,Completed,2025-06-12 15:18:38+00:00,2025-06-12 15:31:06+00:00,,Soledad Moncayo,12.466666666666667,False,False,False,True
+a3iVk0000004b4DIAQ,2025-05-26 15:31:05+00:00,Completed,2025-06-16 09:30:15+00:00,2025-06-16 10:08:24+00:00,,Core Dev,38.15,False,False,False,True
+a3iVk0000004b2bIAA,2025-05-26 14:18:14+00:00,Completed,2025-06-17 11:18:21+00:00,2025-06-17 12:43:25+00:00,,Salma Taoussi,85.06666666666666,False,True,False,True
+a3iVk0000004axlIAA,2025-05-26 09:17:46+00:00,Error,2025-05-26 09:17:46+00:00,2025-05-26 10:00:07+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Amanda van Loggerenberg,42.35,True,False,True,False
+a3iVk0000004aw9IAA,2025-05-26 08:43:00+00:00,Completed,2025-06-16 13:40:08+00:00,2025-06-16 13:40:17+00:00,,Rachid Ait Tacant,0.15,False,False,False,True
+a3iVk0000004aOHIAY,2025-05-25 09:24:32+00:00,Completed,2025-06-16 11:47:09+00:00,2025-06-16 12:13:17+00:00,,Kaptio Admin,26.133333333333333,False,False,False,True
+a3iVk0000004aMfIAI,2025-05-25 08:22:50+00:00,Error,2025-06-11 05:05:01+00:00,2025-06-11 06:00:00+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Oanh Pham,54.983333333333334,True,False,True,False
+a3iVk0000004aL3IAI,2025-05-24 09:37:45+00:00,Completed,2025-06-06 13:47:02+00:00,2025-06-06 13:50:57+00:00,,Phuong Nguyen,3.9166666666666665,False,False,False,True
+a3iVk0000004a4vIAA,2025-05-23 08:26:22+00:00,Error,2025-05-23 08:26:21+00:00,2025-05-23 09:00:01+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Gabriela Sarmanova,33.666666666666664,True,False,True,False
+a3iVk0000004ZqPIAU,2025-05-23 07:04:33+00:00,Completed,2025-06-11 09:09:06+00:00,2025-06-11 09:18:45+00:00,,Jub Yata,9.65,False,False,False,True
+a3iVk0000004ZjxIAE,2025-05-23 04:19:11+00:00,Completed,2025-06-06 11:48:34+00:00,2025-06-06 12:33:53+00:00,,Phuong Nguyen,45.31666666666667,False,False,False,True
+a3iVk0000004Z41IAE,2025-05-22 13:24:37+00:00,Error,2025-06-16 08:50:57+00:00,2025-06-16 10:00:05+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Core Dev,69.13333333333334,True,True,True,False
+a3iVk0000004Y1VIAU,2025-05-21 09:18:41+00:00,Error,2025-06-10 06:01:03+00:00,2025-06-10 07:00:04+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Michelle Edwards,59.016666666666666,True,False,True,False
+a3iVk0000004XztIAE,2025-05-21 08:58:41+00:00,Completed,2025-06-17 08:07:13+00:00,2025-06-17 09:08:54+00:00,,Meenakshi Dushat,61.68333333333333,False,True,False,True
+a3iVk0000004XyHIAU,2025-05-21 03:14:19+00:00,Completed,2025-06-09 11:36:17+00:00,2025-06-09 11:52:28+00:00,,Rosalind Kantis,16.183333333333334,False,False,False,True
+a3iVk0000004XwfIAE,2025-05-21 03:01:14+00:00,Completed,2025-06-12 09:32:35+00:00,2025-06-12 09:46:30+00:00,,Rosalind Kantis,13.916666666666666,False,False,False,True
+a3iVk0000004Xv3IAE,2025-05-20 23:46:32+00:00,Completed,2025-05-30 21:59:35+00:00,2025-05-30 22:01:31+00:00,,C�sar D�vila,1.9333333333333333,False,False,False,True
+a3iVk0000004XtRIAU,2025-05-20 23:40:42+00:00,Error,2025-05-20 23:40:42+00:00,2025-05-21 01:00:04+00:00,408 Request Timeout: Data not received from the external system within the expected timeframe. Please try again or contact your administrator,Claudia Cardenas,79.36666666666666,True,True,True,False
+a3iVk0000004XLZIA2,2025-05-20 15:35:11+00:00,Completed,2025-05-20 15:56:52+00:00,2025-05-20 15:57:34+00:00,,Rachid Ait Tacant,0.7,False,False,False,True
+a3iVk0000004XJxIAM,2025-05-20 12:01:45+00:00,Completed,2025-05-20 12:01:45+00:00,2025-05-20 12:02:34+00:00,,Anas Abouhouraira,0.8166666666666667,False,False,False,True
+a3iVk0000004XILIA2,2025-05-20 11:40:46+00:00,Completed,2025-06-05 09:58:25+00:00,2025-06-05 10:01:24+00:00,,Eduardo Arribas,2.9833333333333334,False,False,False,True
+a3iVk0000004XGjIAM,2025-05-20 10:02:34+00:00,Completed,2025-06-16 14:18:11+00:00,2025-06-16 14:35:51+00:00,,Kaptio Admin,17.666666666666668,False,False,False,True
